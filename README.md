@@ -208,7 +208,7 @@ Serial.println ("");
   }
   
 float percentage;
- percentage= (distance/46)* 100; // 46cm taille de la fosse vide. 
+ percentage= ((46-distance)/46)* 100; // 46cm taille de la fosse vide. 
  Serial.print("Percentage:");
  Serial.println (percentage);
 
@@ -240,7 +240,7 @@ float percentage;
     
  
  
-    delay(30000);
+    delay(60000);
 
 
 
